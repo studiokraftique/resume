@@ -3,6 +3,7 @@
  */
 body {
   text-align: center;
+    background-image: url("../images/confectionary.png")
 }
 .container {
   /* Set max page width */
