@@ -1,0 +1,94 @@
+/**
+ * Bootstrap overrides
+ */
+body {
+  text-align: center;
+}
+.container {
+  /* Set max page width */
+  max-width: 960px;
+}
+.list-inline li:first-child {
+  padding-left: 0;
+}
+img {
+  width:100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+}
+
+main {
+  padding: 10px 0;
+}
+
+.full-name,
+.profession {
+  margin:0;
+  margin-bottom:4px;
+}
+.full-name {
+  font-size: 36px;
+  color:#333;
+}
+.profession {
+  font-size: 18px;
+  color: #999;
+}
+
+.social-media-icons a {
+  color:#999;
+  font-size:18px;
+}
+
+.photo {
+  text-align:center;
+}
+.photo img {
+  max-width: 180px;
+  border: 5px solid #ddd;
+  margin:10px 0;
+  border-radius: 50%;
+}
+.quote h3 {
+  margin:10px 0;
+}
+.quote p {
+  font-size:18px;
+  margin:10px auto;
+  max-width:400px
+}
+.contact-info {
+  margin: 10px 0;
+}
+
+
+header,
+#bio,
+#resume,
+#portfolio {
+  border-bottom: 4px solid #dddddd;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    text-align: left;
+  }
+
+  header {
+    padding-top: 10px;
+  }
+
+  .social-media-icons {
+    text-align: right;
+    margin-top: 12px;
+  }
+  .photo {
+    text-align:left;
+  }
+
+  .quote p {
+    margin:10px 0;
+  }
+}
+
